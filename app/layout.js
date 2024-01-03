@@ -1,8 +1,8 @@
 import Header from '@/app/components/Header'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Alegreya, Della_Respira, Inter, Quicksand, Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Quicksand({ weight: '500', subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='w-screen overflow-x-hidden'>
-      <body>
+      <body className={inter.className}>
         <Header />
         {children}
       </body>
