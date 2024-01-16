@@ -17,14 +17,14 @@ const NamePage = () => {
 
     return (
         <main>
-            <div id='HomePage' className="h-screen justify-evenly items-center -mt-1 flex flex-col bg-gradient-to-b to-[#86B6F6] from-[#aec6cf] px-8">
+            <div id='HomePage' className="h-screen justify-evenly items-center -mt-1 flex flex-col bg-gradient-to-b to-[#2F3C7E] from-[#4831D4] px-8">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     className='h-72 w-72'
                     stroke="#B4D4FF"
                     viewBox="0 0 918.000000 817.000000"
                     preserveAspectRatio="xMidYMid meet">
                     <g transform="translate(0.000000,817.000000) scale(0.100000,-0.100000)"
-                        fill="#f4f4f4" stroke="none">
+                        fill="#FBEAEB" stroke="none">
                         <path d="M4430 7664 c-113 -6 -380 -35 -407 -45 -25 -9 -31 -40 -10 -56 8 -7
 46 -6 112 3 512 68 1068 14 1562 -151 490 -163 938 -428 1290 -762 l72 -68
 -15 -70 c-20 -89 -13 -218 15 -299 25 -70 278 -505 298 -513 32 -13 43 17 43
@@ -155,12 +155,12 @@ c-11 -29 -40 -82 -65 -119 -62 -92 -244 -264 -244 -230 0 38 302 418 322 406
                 </svg>
                 <div className={tangerine.className}>
                     <div className='flex flex-col md:flex-row items-center gap-2 md:gap-4'>
-                        <h1 className='text-center text-[#f4f4f4] text-4xl'>{name1}</h1>
-                        <h1 className='text-center text-[#f4f4f4] text-3xl'>{name2}</h1>
-                        <h1 className='text-center text-[#f4f4f4] text-4xl'>{name3}</h1>
+                        <h1 className='text-center text-[#FBEAEB] text-4xl'>{name1}</h1>
+                        <h1 className='text-center text-[#FBEAEB] text-3xl'>{name2}</h1>
+                        <h1 className='text-center text-[#FBEAEB] text-4xl'>{name3}</h1>
                     </div>
                 </div>
-                <h1 className='text-center mb-12 font-medium text-[#f4f4f4] text-2xl'>{about}</h1>
+                <h1 className='text-center mb-12 font-medium text-[#FBEAEB] text-2xl'>{about}</h1>
             </div>
         </main>
     )
