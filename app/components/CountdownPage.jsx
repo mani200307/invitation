@@ -41,10 +41,10 @@ const CountdownPage = () => {
 
         timerComponents.push(
             <div className='flex flex-col justify-center items-center gap-3'>
-                <span className='bg-gray-100 text-[#2F3C7E] text-xl md:text-lg font-semibold flex items-center justify-center w-12 aspect-square'>
+                <span className='bg-[#2F3C7E] text-[#FFFFFF] text-xl font-medium flex items-center justify-center w-12 md:w-16 aspect-square'>
                     {timeLeft[interval]}
                 </span>
-                <span className='text-sm text-[#FFFFFF] text-center'>
+                <span className='text-sm font-medium text-[#2F3C7E] text-center'>
                     {interval}
                 </span>
             </div>
@@ -52,8 +52,8 @@ const CountdownPage = () => {
     });
 
     return (
-        <div id='countdown' className='flex flex-col -mt-1 bg-[#2F3C7E] py-12 justify-center gap-4 items-center'>
-            <h1 className='text-3xl text-[#FBEAEB] font-medium mb-12'>Countdown</h1>
+        <div id='countdown' className='flex flex-col mt-4 py-16 justify-center gap-4 items-center'>
+            <h1 className='text-3xl text-[#2F3C7E] font-semibold mb-12'>Countdown</h1>
             <div className='flex gap-8'>
                 {timerComponents.length ? timerComponents : <span>Event started!</span>}
             </div>

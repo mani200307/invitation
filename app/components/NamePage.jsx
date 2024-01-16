@@ -17,7 +17,7 @@ const NamePage = () => {
 
     return (
         <main>
-            <div id='HomePage' className="h-screen justify-evenly items-center -mt-1 flex flex-col bg-gradient-to-b to-[#2F3C7E] from-[#4831D4] px-8">
+            <div id='HomePage' className="h-screen justify-evenly items-center -mt-2 flex flex-col bg-gradient-to-b to-[#2F3C7E] from-[#4831D4] px-8">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     className='h-72 w-72'
                     stroke="#B4D4FF"
@@ -155,9 +155,9 @@ c-11 -29 -40 -82 -65 -119 -62 -92 -244 -264 -244 -230 0 38 302 418 322 406
                 </svg>
                 <div className={tangerine.className}>
                     <div className='flex flex-col md:flex-row items-center gap-2 md:gap-4'>
-                        <h1 className='text-center text-[#FBEAEB] text-4xl'>{name1}</h1>
-                        <h1 className='text-center text-[#FBEAEB] text-3xl'>{name2}</h1>
-                        <h1 className='text-center text-[#FBEAEB] text-4xl'>{name3}</h1>
+                        <h1 className='text-center text-[#FBEAEB] text-3xl md:text-4xl'>{name1}</h1>
+                        <h1 className='text-center text-[#FBEAEB] text-2xl md:text-3xl'>{name2}</h1>
+                        <h1 className='text-center text-[#FBEAEB] text-3xl md:text-4xl'>{name3}</h1>
                     </div>
                 </div>
                 <h1 className='text-center mb-12 font-medium text-[#FBEAEB] text-2xl'>{about}</h1>

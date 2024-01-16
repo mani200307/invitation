@@ -14,9 +14,11 @@ const page = () => {
   return (
     <div className='w-screen'>
       <NamePage />
-      <CountdownPage />
-      <AboutPage />
-      <LocationPage />
+      <div className='bg-gradient-to-b to-[#F8F8FF] from-[#FFFFFF]'>
+        <CountdownPage />
+        <AboutPage />
+        <LocationPage />
+      </div>
     </div>
   )
 }
