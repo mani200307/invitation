@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
+import AlarmIcon from '@mui/icons-material/Alarm';
 
 const CountdownPage = () => {
 
@@ -53,7 +54,7 @@ const CountdownPage = () => {
 
     return (
         <div id='countdown' className='flex flex-col py-16 justify-center gap-4 items-center'>
-            <h1 className='text-3xl text-[#2F3C7E] font-semibold mb-12'>Countdown</h1>
+            <h1 className='text-3xl text-[#2F3C7E] gap-3 flex items-center justify-center font-semibold mb-12'><AlarmIcon className='w-8 h-8'/> Countdown</h1>
             <div className='flex gap-8'>
                 {timerComponents.length ? timerComponents : <span>Event started!</span>}
             </div>

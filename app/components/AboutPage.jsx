@@ -1,9 +1,10 @@
 import React from 'react';
+import EventIcon from '@mui/icons-material/Event';
 
 const AboutPage = () => {
     return (
         <div id='AboutPage' className='flex flex-col -mt-1 h-screen justify-center gap-10 items-center'>
-            <h1 className='text-3xl text-[#2F3C7E] font-semibold mb-8'>Events</h1>
+            <h1 className='text-3xl text-[#2F3C7E] gap-3 flex items-center justify-center font-semibold mb-8'><EventIcon className='w-8 h-8'/> Events</h1>
             <div className='flex md:flex-row flex-col justify-center items-center gap-8 md:gap-12'>
                 <div className='flex flex-col w-fit border-[#4831D4] bg-[#4831D4] shadow-lg rounded-lg border-[1px] p-8 items-center gap-12'>
                     <h1 className='text-2xl text-[#FFFFFF] text-center'>Penn Azhaipu</h1>
