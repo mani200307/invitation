@@ -36,7 +36,7 @@ const Header = () => {
               <li>
                 <Link
                   activeClass="active"
-                  to="ProjectPage"
+                  to="LocationPage"
                   spy={true}
                   smooth={true}
                   offset={-70}
