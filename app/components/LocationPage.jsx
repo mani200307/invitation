@@ -8,7 +8,7 @@ const LocationPage = () => {
             <div className='flex bg-[#4731d4d3] w-fit rounded-lg shadow-md p-4'>
                 <h1 className='text-center text-[#FFFFFF]'>Simbu Meera Mahal, Vedaranyam</h1>
             </div>
-            <div className='flex flex-col w-fit bg-[#4831D4] shadow-lg rounded-lg border-[1px] p-4 items-center gap-12'>
+            <div className='flex flex-col w-fit bg-green-500 shadow-lg rounded-lg border-[1px] p-4 items-center gap-12'>
                 <a href='https://maps.app.goo.gl/KtMDpWtgNChVwaSZA'><h1 className='text-xl gap-2 flex items-center justify-center text-[#FFFFFF] text-center'><LocationOnIcon />Open In Map</h1></a>
             </div>
         </div>
